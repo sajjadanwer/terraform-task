@@ -7,7 +7,7 @@ This file used to configured the AWS provider and required version also get regi
 This file is used to declarations of variables also defined types and default values.
 
 **terraform.tfvars** file:
-In this file configured actual values for variables in help to create infra.
+In this file configured actual values for variables in help to create infra. This file is in .gitignore and never commit in version control.
 
 **security.tf** file:
 In this file creates security group using variables var.vpc_id and var.allowed_cidrs.
